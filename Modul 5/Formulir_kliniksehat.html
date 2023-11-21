@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Klinik</title>
+  </head>
+  <body>
+    <form action="#">
+      <h1>
+        <center>Formulir Klinik Sehat</center>
+      </h1>
+      <label for="nik">NIK</label><br />
+      <input type="text" id="nik" name="nik" value="" />
+      <br /><br />
+
+      <label for="password">Password</label><br />
+      <input type="password" id="password" name="password" />
+      <br /><br />
+
+      <label for="nama">Nama</label><br />
+      <input type="text" id="nama" name="nama" value="" />
+
+      <p>Jenis Kelamin</p>
+      <input type="radio" id="pria" name="jeniskelamin" value="pria" />
+      <label for="pria">Pria </label>
+      <input type="radio" id="wanita" name="jeniskelamin" value="wanita" />
+      <label for="wanita">Wanita</label><br /><br />
+
+      <label for="alamat">Alamat</label><br />
+      <input type="text" id="alamat" name="alamat" value="" />
+      <br />
+
+      <p>Riwayat Sakit</p>
+      <input type="checkbox" id="jantung" name="jantung" />
+      <label for="jantung">Jantung</label>
+      <input type="checkbox" id="paru_paru" name="paru_paru" />
+      <label for="paru_paru">Paru - Paru</label>
+      <input type="checkbox" id="hati" name="hati" />
+      <label for="hati">Hati</label>
+
+      <p>Status:</p>
+      <select name="status">
+        <option value="menikah">Menikah</option>
+        <option value="belum_menikah">Belum Menikah</option>
+      </select>
+
+      <p>Keluhan</p>
+      <textarea name="keluhan" id="keluhan" cols="20" rows="5"></textarea>
+      <br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Perpustakaan</title>
+  </head>
+  <body>
+    <form action="#">
+      <h1>
+        <center>Formulir Perpustakaan Kota Madiun</center>
+      </h1>
+      <label for="nik">NIK</label><br />
+      <input type="text" id="nik" name="nik" value="" />
+      <br /><br />
+
+      <label for="password">Password</label><br />
+      <input type="password" id="password" name="password" />
+      <br /><br />
+
+      <label for="nama">Nama</label><br />
+      <input type="text" id="nama" name="nama" value="" />
+
+      <p>Jenis Kelamin</p>
+      <input type="radio" id="pria" name="jeniskelamin" value="pria" />
+      <label for="pria">Pria </label>
+      <input type="radio" id="wanita" name="jeniskelamin" value="wanita" />
+      <label for="wanita">Wanita</label><br /><br />
+
+      <label for="alamat">Alamat</label><br />
+      <input type="text" id="alamat" name="alamat" value="" />
+      <br />
+
+      <p>Genre Kesukaan</p>
+      <input type="checkbox" id="horor" name="horor" />
+      <label for="horor">Horor</label>
+      <input type="checkbox" id="comedy" name="comedy" />
+      <label for="comedy">Comedy</label>
+      <input type="checkbox" id="roman" name="roman" />
+      <label for="roman">Roman</label>
+
+      <p>Pekerjaan</p>
+      <select name="pekerjaan">
+        <option value="siswa">siswa</option>
+        <option value="mahasiswa">Mahasiswa</option>
+        <option value="bekerja">bekerja</option>
+      </select>
+
+      <p>Saran</p>
+      <textarea name="saran" id="saran" cols="20" rows="5"></textarea>
+
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
