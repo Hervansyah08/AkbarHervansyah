@@ -1,0 +1,36 @@
+:root {
+  --primary: #814e2b;
+  --primary-focus: #734424;
+}
+/* Font */
+.font-poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+.font-archivo {
+  font-family: "Archivo", sans-serif !important;
+}
+/* Navbar */
+.active {
+  color: var(--primary) !important;
+}
+.nav-link:hover {
+  color: var(--primary) !important;
+}
+
+/* Main conten */
+.btn-primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+.btn-primary:hover {
+  background-color: var(--primary-focus) !important;
+}
+
+/* footer */
+/* footer {
+  background-color: #814e2b;
+  padding: 0.5rem;
+}
+footer p {
+  margin-top: 0.5em;
+} */
